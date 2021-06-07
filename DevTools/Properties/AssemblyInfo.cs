@@ -11,7 +11,7 @@
 ///     * Redistributions in binary form must reproduce the above copyright
 ///     notice, this list of conditions and the following disclaimer in the
 ///     documentation and/or other materials provided with the distribution.
-///     * Neither the name of the OpenSimulator Project nor the
+///     * Neither the name of the Vision-Sim Project nor the
 ///     names of its contributors may be used to endorse or promote products
 ///     derived from this software without specific prior written permission.
 ///     
@@ -61,8 +61,6 @@ using System.Runtime.InteropServices;
 /// </summary>
 [assembly: ComVisible(false)]
 
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-
 /// <summary>
 /// GUID Information
 /// 
@@ -88,9 +86,15 @@ using System.Runtime.InteropServices;
 ///     Minor Version
 ///     Build Number
 ///     Revision
-///     
+/// 
+/// We can specify all the values or we can
+/// default the Build and Revision numbers
+/// by using the '*' as shown below:
+/// 
+///     [assembly: AssemblyVersion("1.0.0.*")]
+/// 
 /// TODO: Make this dependent on VersionInfo.cs
 /// instead
 /// </summary>
-[assembly: AssemblyVersion("0.6.5.*")]
-[assembly: AssemblyFileVersion("0.6.5.0")]
+[assembly: AssemblyVersion("1.0.0.*")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
