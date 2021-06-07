@@ -1,12 +1,4 @@
 <Nini>
-  <!-- You probably don't want to remove the OpenSim asset set
-       since it contains various default assets which are currently hardcoded 
-       However, you can remove the corresponding inventory library in bin/inventory if you wish
-  -->
-
-  <Section Name="OpenSim Asset Set">
-    <Key Name="file" Value="OpenSimAssetSet/OpenSimAssetSet.xml"/>
-  </Section>
 
   <!-- New asset sets can be added as shown below -->
 
@@ -72,6 +64,12 @@
   <!---->
   <Section Name="Sounds AssetSet">
     <Key Name="file" Value="SoundsAssetSet/SoundsAssetSet.xml"/>
+  </Section>
+  <!---->
+  
+  <!---->
+  <Section Name="Collision Sounds AssetSet">
+    <Key Name="file" Value="CollisionSoundsAssetSet/CollisionSoundsAssetSet.xml"/>
   </Section>
   <!---->
   
